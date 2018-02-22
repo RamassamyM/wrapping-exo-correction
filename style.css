@@ -1,3 +1,5 @@
+/* general css */
+
 body {
   margin: 0px;
   color: #252525;
@@ -28,6 +30,10 @@ a:hover {
   color: #e84089;
 }
 
+
+
+/* buttons css */
+
 .button-blue {
   background-color: #01A1FD;
 }
@@ -44,6 +50,10 @@ a:hover {
   background-color: white;
   color: #e84089;
 }
+
+
+
+/* banner css */
 
 #banner{
   text-align: center;
@@ -72,19 +82,10 @@ a:hover {
   font-size: 30px;
   font-weight: lighter;
 }
-#footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: grey;
-}
 
-#footer a {
-  color: lightgrey;
-  font-size: 40px;
-}
-#footer a:hover {
-  color: white;
-}
+
+
+/* card css*/
 
 .card{
   margin: 20px 0;
@@ -93,6 +94,10 @@ a:hover {
   background: #e4e6e6;
   border-radius: 3px;
 }
+
+
+
+/* section css*/
 
 .section {
   padding: 50px;
@@ -104,4 +109,23 @@ a:hover {
 
 .section-blue {
   background-color: #01A1FD;
+}
+
+
+
+/* footer css*/
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
 }
